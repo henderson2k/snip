@@ -2,6 +2,8 @@ setTimeout(function(){
 
 var clearform = document.getElementById('id="ctl00_ContentPlaceHolder1_btnClear');
 
+
+
     var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
     
     usernameInput.value = '123';
