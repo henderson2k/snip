@@ -2,7 +2,7 @@ setTimeout(function(){
 
 var clearform = document.getElementById('id="ctl00_ContentPlaceHolder1_btnClear');
 
-if (submitButton) {
+if (clearform) {
     // Trigger a click event on the button
     submitButton.click();
   } else {
