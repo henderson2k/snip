@@ -1,5 +1,9 @@
 setTimeout(function(){
 
+
+
+
+    
 var clearform = document.getElementById('id="ctl00_ContentPlaceHolder1_btnClear');
 
 if (clearform) {
