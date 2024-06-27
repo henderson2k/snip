@@ -6,7 +6,7 @@ if (clearform) {
     // Trigger a click event on the button
     clearform.click();
   } else {
-    console.error('Submit button not found.');
+    console.error('clear button not found.');
   }
 
     var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
