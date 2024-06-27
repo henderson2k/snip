@@ -1,6 +1,6 @@
 setTimeout(function(){
 
-Var  document.getElementById('ctl00_ContentPlaceHolder1_btnSaveRecord');
+Var  document.getElementById(' id="ctl00_ContentPlaceHolder1_btnClear"');
 
 
     var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
