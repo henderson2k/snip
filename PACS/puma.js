@@ -4,7 +4,7 @@ var clearform = document.getElementById('id="ctl00_ContentPlaceHolder1_btnClear'
 
 if (clearform) {
     // Trigger a click event on the button
-    submitButton.click();
+    clearform.click();
   } else {
     console.error('Submit button not found.');
   }
