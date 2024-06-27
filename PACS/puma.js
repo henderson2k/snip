@@ -22,7 +22,7 @@ if (clearform) {
 
     var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
     
-    usernameInput.value = '123';
+    usernameInput.value = text;
     
         var submitButton = document.getElementById('ctl00_ContentPlaceHolder1_btnSaveRecord');
     
