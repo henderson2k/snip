@@ -1,9 +1,16 @@
 setTimeout(function(){
 
+    navigator.clipboard.readText()
+    .then(text => {
+      console.log('Text from clipboard:', text);
+      // Do something with the text from clipboard
+    })
+    .catch(err => {
+      console.error('Failed to read clipboard contents: ', err);
+    });
 
 
 
-    
 var clearform = document.getElementById('id="ctl00_ContentPlaceHolder1_btnClear');
 
 if (clearform) {
