@@ -9,7 +9,7 @@ setTimeout(function(){
       console.error('Failed to read clipboard contents: ', err);
     });
 
-
+  ]
 
 var clearform = document.getElementById('ctl00_ContentPlaceHolder1_btnClear');
 
