@@ -10,7 +10,6 @@ setTimeout(function(){
     });
 
 var clearform = document.getElementById('ctl00_ContentPlaceHolder1_btnClear');
-ctl00_ContentPlaceHolder1_btnClear
 if (clearform) {
     // Trigger a click event on the button
     clearform.click();
