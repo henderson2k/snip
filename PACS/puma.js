@@ -1,8 +1,8 @@
 setTimeout(function(){
 
+Var 
 
 
-    
     var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
     
     usernameInput.value = '123';
