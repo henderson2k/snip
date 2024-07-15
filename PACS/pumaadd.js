@@ -2,7 +2,7 @@ setTimeout(function() {
     // Read text from clipboard
     navigator.clipboard.readText()
       .then(text => {
-        console.log('Text from clipboard:', text);
+       // console.log('Text from clipboard:', text);
   
         // Split the clipboard text by commas into an array  (Firstname, Lastname, Speciality/Department, Group, eMail, GMC/Registration, Description, UserName)
   var valuesArray = text.split(',').map(value => value.trim());
