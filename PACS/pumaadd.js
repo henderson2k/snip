@@ -15,7 +15,7 @@ setTimeout(function() {
   document.getElementById('ctl00_ContentPlaceHolder1_txtSName').value = valuesArray[1];
   document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg').value = valuesArray[5];
   document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg').value = valuesArray[5];
-  ctl00_ContentPlaceHolder1_txtEmailAddress
+
   
   // Set Speciality
   var SpecialityDropdown = document.getElementById("ctl00_ContentPlaceHolder1_ddlSpecialty");
