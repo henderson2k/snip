@@ -20,11 +20,6 @@ var valuesArray = text.split(',').map(value => value.trim());
 
 
   
-  navigator.clipboard.readText()
-      .then(text => {
-        //  console.log('Text from clipboard:', text);
-
-          // Set clipboard text into input field
           var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
           usernameInput.value = text;
 
