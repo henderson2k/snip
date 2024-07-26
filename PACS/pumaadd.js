@@ -43,7 +43,7 @@ setTimeout(function() {
   document.querySelector('[tabindex="49"]').checked = true;  // Radio button to Lanarkshire
   document.querySelector('[tabindex="50"]').value = DescriptionArray[1]  // Site
   document.querySelector('[tabindex="51"]').value = DescriptionArray[2]  // Dept.
-  document.querySelector('[tabindex="52"]').value = DescriptionArray[3]  // Grade
+  document.querySelector('[tabindex="52"]').value = DescriptionArray[2]  // Grade
   
   
   
