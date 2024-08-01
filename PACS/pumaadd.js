@@ -5,7 +5,7 @@ setTimeout(function() {
        // console.log('Text from clipboard:', text);
   
 //                 0          1       2     3     4           5             6        7         8          9
-// Clipboard:  Firstname, Lastname, , GMC, eMail, MothersMaidenName, Group, Username, Description,  Spec
+// Clipboard:  Firstname, Lastname,  GMC, eMail, MothersMaidenName, Group, Username, Description,  Spec
 
 
         var valuesArray = text.split(',').map(value => value.trim());
