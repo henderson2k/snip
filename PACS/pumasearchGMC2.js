@@ -28,7 +28,7 @@ var valuesArray = text.split(',').map(value => value.trim());
 
   
           var usernameInput = document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg');
-          usernameInput.value = valuesArray[3];
+          usernameInput.value = valuesArray[2];
           
           // After setting the value, wait a bit before submitting the form
           setTimeout(function() {
