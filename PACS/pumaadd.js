@@ -21,7 +21,7 @@ setTimeout(function() {
   
   // Set Speciality
   var SpecialityDropdown = document.getElementById("ctl00_ContentPlaceHolder1_ddlSpecialty");
-  var SpecialityValue = valuesArray[8];
+  var SpecialityValue = valuesArray[9];
   
   for (var i = 0; i < SpecialityDropdown.options.length; i++) {
       if (SpecialityDropdown.options[i].value === SpecialityValue) {
