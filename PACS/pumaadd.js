@@ -18,7 +18,7 @@ setTimeout(function() {
   document.getElementById('ctl00_ContentPlaceHolder1_txtFName').value = valuesArray[0];
   document.getElementById('ctl00_ContentPlaceHolder1_txtSName').value = valuesArray[1];
   document.getElementById('ctl00_ContentPlaceHolder1_txtProfReg').value = valuesArray[3];
-  document.getElementById('ctl00_ContentPlaceHolder1_txtEmailAddress').value = valuesArray[4];
+  document.getElementById('ctl00_ContentPlaceHolder1_txtEmailAddress').value = valuesArray[3];
 
   
   // Set Speciality
