@@ -6,7 +6,8 @@ setTimeout(function() {
   
         // Split the clipboard text by commas into an array  (Firstname, Lastname, Speciality/Department, Group, eMail, GMC/Registration, Description, UserName)
  
- 
+ //// Clipboard:  Firstname, Lastname, Grade, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
+
         // Firstname, Lastname, Grade, GMC, eMail, Username, Description, Group, Specialty
   
         var valuesArray = text.split(',').map(value => value.trim());
