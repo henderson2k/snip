@@ -14,7 +14,7 @@ if (clearform) {
 navigator.clipboard.readText()
 .then(text => {
 
-  //                 0          1       2     3          4               5       6        7           8         
+  //                 0        1       2     3          4               5       6        7           8         
 // Clipboard:  Firstname, Lastname,  GMC, eMail, MothersMaidenName, Group, Username, Description,  Spec
 
 
