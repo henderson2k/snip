@@ -14,10 +14,12 @@ if (clearform) {
 navigator.clipboard.readText()
 .then(text => {
 
-
-
-
   
+//                    0          1       2     3     4             5            6         7           8      9
+ //// Clipboard:  Firstname, Lastname, Grade, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
+
+
+
  // console.log('Text from clipboard:', text);
 
   // Split the clipboard text by commas into an array  (Firstname, Lastname, Speciality/Department, Group, eMail, GMC/Registration, Description, UserName)
