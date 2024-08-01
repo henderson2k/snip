@@ -36,7 +36,7 @@ setTimeout(function() {
   }
   // Set Group
   var GroupDropdown = document.getElementById("ctl00_ContentPlaceHolder1_ddlGroupName");
-  var GroupValue = valuesArray[8];
+  var GroupValue = valuesArray[6];
   
   for (var i = 0; i < GroupDropdown.options.length; i++) {
       if (GroupDropdown.options[i].value === GroupValue) {
