@@ -20,8 +20,8 @@ Set objHTML = CreateObject("htmlfile")
 clipboardData = objHTML.parentWindow.clipboardData.getData("Text")
 
 
-' Clipboard:  Firstname, Lastname, Grade, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
-Dim csvString, values, FirstName, LastName, Grade, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
+' Clipboard:  Firstname, Lastname, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
+Dim csvString, values, FirstName, LastName, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
 
 csvString = clipboardData
 
@@ -31,14 +31,13 @@ values = Split(csvString, ",")
 ' Assign the values from the array to individual variables
 FirstName = values(0)
 LastName = values(1)
-Grade =  values(2)
-GMC = values(3)
-eMail = Values(4)
-MothersMaidenName =values(5)
+GMC = values(2)
+eMail = Values(3)
+MothersMaidenName = values(4)
+Group = values(5)
 UserName = values(6)
 Description = values(7)
-Group = values(8)
-Spec = values(9)
+Spec = values(8)
 
 
 
