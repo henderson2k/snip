@@ -8,8 +8,6 @@ setTimeout(function() {
  
  //// Clipboard:  Firstname, Lastname, Grade, GMC, eMail, MothersMaidenName, Username, Description, Group, Spec
 
-        // Firstname, Lastname, Grade, GMC, eMail, Username, Description, Group, Specialty
-  
         var valuesArray = text.split(',').map(value => value.trim());
   var DescriptionArray = valuesArray[6].split('_').map(value => value.trim());
         // Log the array to the console for verification
