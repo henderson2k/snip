@@ -11,6 +11,7 @@ setTimeout(function() {
         var valuesArray = text.split(',').map(value => value.trim());
   var DescriptionArray = valuesArray[7].split('_').map(value => value.trim());
   console.log(DescriptionArray)
+  console.log(DescriptionArray)
         // Log the array to the console for verification
      //   console.log('Array of values:', valuesArray);
   
